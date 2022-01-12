@@ -118,7 +118,7 @@ async def start_command(client: Client, message: Message):
                 InlineKeyboardButton("Abone Ol!", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton("Kapat", callback_data="close"),
             ],
         ]
         await message.reply_text(
